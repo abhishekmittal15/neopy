@@ -3,7 +3,10 @@ Neostox doesnt have an API Support, so this is a little selenium code to automat
 
 ## How to use
 - Clone this repository and then make a .env file where you will store your email_id and password. 
-- Edit your strategy class  
+- Edit your strategy class
+- Run the strategy.py file and a new neostox window will open up
+- Just finish the recaptcha and press enter on the terminal from where you ran your file 
+- It will fetch the list of instruments in your side bar and store them   
 
 ## Broker.py
 Handles `signing in` , `fetching list of options` , `fetching data every minute` and `placing orders`
